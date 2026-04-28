@@ -1,0 +1,134 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+
+  --color-background:         hsl(40, 43%, 97%);
+  --color-foreground:         hsl(15, 5%, 23%);
+  --color-card:               hsl(38, 33%, 93%);
+  --color-primary:            hsl(18, 52%, 51%);
+  --color-primary-foreground: #ffffff;
+  --color-secondary:          hsl(105, 14%, 58%);
+  --color-secondary-foreground: #ffffff;
+  --color-muted:              hsl(34, 24%, 90%);
+  --color-muted-foreground:   hsl(18, 5%, 46%);
+  --color-border:             hsl(33, 19%, 88%);
+  --color-surface:            hsl(38, 33%, 93%);
+  --color-surface-alt:        hsl(33, 19%, 88%);
+
+  --shadow-warm:    0 10px 30px -10px rgba(61, 56, 54, 0.08);
+  --shadow-warm-lg: 0 20px 50px -15px rgba(61, 56, 54, 0.15);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  overflow-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  text-wrap: balance;
+}
+
+p { text-wrap: pretty; }
+a { text-decoration: none; }
+button { cursor: pointer; }
+
+/* ── Animations ── */
+@keyframes unfurl {
+  from { opacity: 0; transform: translateY(20px) scale(0.97); filter: blur(4px); }
+  to   { opacity: 1; transform: translateY(0)    scale(1);    filter: blur(0);   }
+}
+@keyframes bounce-y {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(6px); }
+}
+@keyframes ken-burns {
+  from { transform: scale(1); }
+  to   { transform: scale(1.04); }
+}
+
+.animate-unfurl   { animation: unfurl   0.7s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.animate-bounce-y { animation: bounce-y 1.4s ease-in-out infinite; }
+
+/* ── Layout helpers ── */
+.section-padding { padding-left: 1.5rem; padding-right: 1.5rem; }
+@media (min-width: 768px) {
+  .section-padding { padding-left: 4rem; padding-right: 4rem; }
+}
+.container-craft   { max-width: 1440px; margin: 0 auto; }
+.rounded-pill      { border-radius: 999px !important; }
+.rounded-container { border-radius: 2.5rem !important; }
+
+/* ── Visual effects ── */
+.nav-glass {
+  background: hsla(40, 43%, 97%, 0.82);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.card-hover { transition: transform 0.3s cubic-bezier(0.16,1,0.3,1), box-shadow 0.3s ease; }
+.card-hover:hover { transform: translateY(-8px); box-shadow: var(--shadow-warm-lg); }
+
+.img-ken-burns { transition: transform 5s ease; }
+.img-ken-burns:hover { transform: scale(1.04); }
+
+.btn-craft { transition: transform 0.2s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.2s ease; }
+.btn-craft:hover  { transform: scale(1.03) rotate(0.5deg); }
+.btn-craft:active { transform: scale(0.97); }
+
+/* ── Form focus ── */
+input:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px hsla(18, 52%, 51%, 0.2);
+  border-color: var(--color-primary) !important;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-surface); }
+::-webkit-scrollbar-thumb { background: var(--color-muted); border-radius: 999px; }
+
+/* ── Responsive hero grid ── */
+.hero-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (max-width: 900px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Hide desktop links on mobile ── */
+.desktop-links {
+  display: flex;
+}
+.mobile-menu-btn {
+  display: none;
+}
+@media (max-width: 768px) {
+  .desktop-links {
+    display: none !important;
+  }
+  .mobile-menu-btn {
+    display: flex !important;
+  }
+}
+
+/* ── Auth left panel — show on large screens only ── */
+.auth-left-panel {
+  display: none !important;
+}
+@media (min-width: 1024px) {
+  .auth-left-panel {
+    display: flex !important;
+  }
+}
