@@ -1,0 +1,52 @@
+<svg width="100%" viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg">
+
+
+<!-- Rounded square background -->
+<rect x="60" y="60" width="560" height="560" rx="120" style="fill:rgb(195, 104, 65);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Subtle inner ring shadow -->
+<rect x="60" y="60" width="560" height="560" rx="120" fill="none" stroke="hsl(18,52%,34%)" stroke-width="18" opacity="0.18" style="fill:none;stroke:rgb(132, 69, 42);color:rgb(255, 255, 255);stroke-width:18px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.18;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Background skein oval (large, soft) -->
+<ellipse cx="340" cy="355" rx="195" ry="158" fill="hsl(18,52%,44%)" style="fill:rgb(171, 89, 54);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<ellipse cx="340" cy="355" rx="155" ry="120" fill="hsl(18,52%,48%)" style="fill:rgb(186, 97, 59);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Yarn wraps — outer band (shadow pass) -->
+<path stroke-width="14" opacity="0.25" d="M170,290 C190,220 290,180 370,190 C460,200 520,265 510,350 C500,435 430,490 340,490 C250,490 185,435 175,355" style="fill:none;stroke:rgb(132, 69, 42);color:rgb(255, 255, 255);stroke-width:14px;stroke-linecap:round;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<path stroke-width="10" opacity="0.18" d="M200,255 C225,195 315,165 395,178 C478,192 530,248 525,325 C520,402 460,455 370,465 C278,475 210,425 195,348" style="fill:none;stroke:rgb(132, 69, 42);color:rgb(255, 255, 255);stroke-width:10px;stroke-linecap:round;stroke-linejoin:miter;opacity:0.18;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Yarn wraps — outer band -->
+<path stroke-width="16" d="M170,290 C190,220 290,180 370,190 C460,200 520,265 510,350 C500,435 430,490 340,490 C250,490 185,435 175,355" style="fill:none;stroke:rgb(249, 233, 200);color:rgb(255, 255, 255);stroke-width:16px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<path stroke-width="12" d="M200,255 C225,195 315,165 395,178 C478,192 530,248 525,325 C520,402 460,455 370,465 C278,475 210,425 195,348" style="fill:none;stroke:rgb(249, 233, 200);color:rgb(255, 255, 255);stroke-width:12px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<path stroke-width="9" d="M225,228 C256,173 345,148 420,164 C498,182 544,234 540,308 C536,382 476,430 390,445 C304,460 234,416 218,343" style="fill:none;stroke:rgb(249, 233, 200);color:rgb(255, 255, 255);stroke-width:9px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Yarn wraps — inner tighter -->
+<path stroke-width="13" d="M255,248 C280,200 358,178 425,195 C495,214 533,268 526,338 C520,408 464,448 390,452 C316,456 264,415 252,350" style="fill:none;stroke:rgb(231, 204, 157);color:rgb(255, 255, 255);stroke-width:13px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<path stroke-width="9" d="M285,265 C308,224 374,204 432,220 C492,238 524,286 516,346 C508,406 456,440 392,440 C326,440 284,403 276,350" style="fill:none;stroke:rgb(231, 204, 157);color:rgb(255, 255, 255);stroke-width:9px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Center skein hole -->
+<ellipse cx="340" cy="345" rx="62" ry="50" fill="hsl(18,52%,38%)" style="fill:rgb(147, 77, 47);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<ellipse cx="340" cy="345" rx="44" ry="36" fill="hsl(18,52%,42%)" style="fill:rgb(163, 85, 51);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<ellipse cx="340" cy="345" rx="28" ry="22" fill="hsl(18,52%,44%)" style="fill:rgb(171, 89, 54);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Yarn tail coming off bottom-left of skein -->
+<path stroke-width="13" d="M235,440 C218,465 215,490 228,510 C238,525 250,528 262,520" style="fill:none;stroke:rgb(249, 233, 200);color:rgb(255, 255, 255);stroke-width:13px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<path stroke-width="13" d="M262,520 C270,514 276,505 272,494" style="fill:none;stroke:rgb(249, 233, 200);color:rgb(255, 255, 255);stroke-width:13px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Crochet hook -->
+<!-- Handle -->
+<rect x="390" y="162" width="28" height="118" rx="14" style="fill:rgb(249, 233, 200);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<!-- Shaft -->
+<rect x="399" y="278" width="10" height="68" rx="5" style="fill:rgb(249, 233, 200);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<!-- Hook curve body -->
+<path d="M399,344 L399,365 Q399,390 376,390 Q355,390 355,372 Q355,358 366,354 L380,354 Q388,354 388,346 Q388,338 380,338 L368,338" fill="none" stroke="hsl(40,80%,88%)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:rgb(249, 233, 200);color:rgb(255, 255, 255);stroke-width:10px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<!-- Hook tip -->
+<circle cx="368" cy="338" r="7" style="fill:rgb(249, 233, 200);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Handle grip band detail -->
+<rect x="390" y="222" width="28" height="28" rx="4" opacity="0.55" style="fill:rgb(223, 194, 144);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.55;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect x="390" y="256" width="28" height="14" rx="4" opacity="0.35" style="fill:rgb(223, 194, 144);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.35;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Shine on handle -->
+<rect x="395" y="170" width="8" height="50" rx="4" fill="hsl(40,90%,95%)" opacity="0.22" style="fill:rgb(254, 246, 231);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.22;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>

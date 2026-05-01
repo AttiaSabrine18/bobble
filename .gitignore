@@ -1,0 +1,5 @@
+# Frontend
+Frontend/node_modules/
+Frontend/.env
+Frontend/build/
+Frontend/.cache/
